@@ -44,4 +44,14 @@ public class CustomerRestService {
             return Response.ok().entity(customer).build();
         }
     }
+    
+    @POST
+    @Path("/post")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response postStudentRecord(Customer  cst){
+        String result = "Record entered: "+ cst;
+        return Response.ok().entity(result).build();
+    }
+    
+    //{"name": "sghjkl","address": "123456","phone-Number": "qwesad"} post instruct for postman
 }
