@@ -53,5 +53,6 @@ public class CustomerRestService {
         return Response.ok().entity(result).build();
     }
     
-    //{"name": "sghjkl","address": "123456","phone-Number": "qwesad"} post instruct for postman
+    //{"address": "srgd","id": "2","name": "coco","phoneNumber": "1234567890"} post object instruct for postman
+    //name value   address value   phone-number value (post html instruct for postman) 
 }
